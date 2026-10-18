@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_message_utilisateur" directorySegmentName="seg_0" id="1E12B1F8-D452-BCF2-6D80-14CFFE59D68D">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>CBC27D7B-92F2-3C4C-432D-6A4E217C1DD7</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<sourcePk>85A33B47-E2BF-F86B-C0A4-9EA9E64387B6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E6975BDC-DCFC-A04F-5B2C-B1FAFB396260</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5CDC9C6C-D92B-4DC4-1B9C-FA300AC8B928</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

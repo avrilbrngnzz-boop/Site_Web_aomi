@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="aomi" id="48FAC2DC-DE07-AEC5-CC37-90727D235E43" version="3.5">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:16:33 UTC</createdTime>
+<ownerDesignName>aomi_erd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>48FAC2DC-DE07-AEC5-CC37-90727D235E43</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9F02500B-98D6-4BCF-8100-E15707BB83B7">
+<designStoragePath>C:\aomi_modele</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

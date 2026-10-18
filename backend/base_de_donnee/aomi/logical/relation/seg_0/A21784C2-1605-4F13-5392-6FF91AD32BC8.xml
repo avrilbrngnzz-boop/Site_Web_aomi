@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_panier_variante" directorySegmentName="seg_0" id="A21784C2-1605-4F13-5392-6FF91AD32BC8">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>734FFEF5-0431-D36D-AD55-C2D75491B58C</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<sourcePk>03D990BC-ADEC-91D5-9F8A-3183406694C2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D001E161-A9B1-29B1-35FD-CAB587A3880F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>44F598BF-D79B-3BCA-6B84-F50C83EF2D8F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

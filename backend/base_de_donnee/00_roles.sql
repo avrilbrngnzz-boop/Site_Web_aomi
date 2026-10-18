@@ -1,0 +1,5 @@
+CREATE ROLE aomi_dev NOLOGIN;
+CREATE ROLE aomi_user NOLOGIN;
+GRANT aomi_dev TO postgres;
+REVOKE CREATE ON SCHEMA public FROM PUBLIC;
+GRANT USAGE, CREATE ON SCHEMA public TO aomi_dev;
