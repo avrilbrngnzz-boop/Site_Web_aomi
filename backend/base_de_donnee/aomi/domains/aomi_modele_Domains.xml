@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="aomi_modele_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="1D88762F-1963-ADB4-37BF-E25BDCE7FEB1">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="1EB87823-0C35-ABE5-E7F0-47F6E07EC50C">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="2DB4009A-FBDF-DD61-615E-1E3EDC97C7C0">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="TIMESTAMP WITH TIME ZONE_6_0_0" id="4D3A6B1D-DE21-87AB-5BD7-32AFE816D33E">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT046</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="SMALLINT_0_0_0" id="5FD7F936-5A25-19B4-FCE4-50E761CFACFC">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT018</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="64115751-FA2B-B2BC-C663-2D94416477B0">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_2_0" id="6B4C7FC6-92BB-5BB4-1E37-5DEE9648ED5F">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000" id="794CE81E-0C95-50C8-1D7F-BC9EBD3CB45D">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>4000</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="7AC5220D-0344-B159-0613-8A4E7CDA7A0D">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="9E4F3673-AF2E-576F-9F8F-72F9F81C2C99">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500" id="A7F3C3C6-FC1C-F3A9-6EE0-C8FA9D059970">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>500</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="EC693097-32A1-8D24-FE9B-278F6868687A">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="EEF2807E-D827-B66D-4CB6-8CF538FB9FD4">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>aomi_modele_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

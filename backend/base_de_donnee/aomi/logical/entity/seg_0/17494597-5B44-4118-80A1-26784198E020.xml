@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17494597-5B44-4118-80A1-26784198E020" name="tentative connexion">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>1BB304C3-EF32-E33F-65A5-FCB810DFF5FB</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tentative" id="FC762302-7B78-1496-35A7-807C8EED701C">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>0F5ECA9C-6135-CC66-AA48-14E4091729AD</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email utilisateur" id="1B5976F1-CA8A-F643-7718-E95EF5241130">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>162BD1DB-5A28-931E-1F93-0573BBDC3422</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EC693097-32A1-8D24-FE9B-278F6868687A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status tentative" id="20CB6537-BBE0-8755-6E82-47FB74332B36">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>235D4A01-E6EB-E95C-8011-4EBBEE18D696</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AC5220D-0344-B159-0613-8A4E7CDA7A0D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date attempt" id="8FDC8D2B-9D02-3183-403F-4B9C84E2C905">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>DA950F35-2652-98B8-5139-DF4233183B1D</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>4D3A6B1D-DE21-87AB-5BD7-32AFE816D33E</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E4C6865-5FA2-F4F9-2441-DB0AAFD64ED3" name="pk tentative connexion">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>57062EEB-A96C-0ED4-6B3B-C10FEC7C0035</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC762302-7B78-1496-35A7-807C8EED701C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
