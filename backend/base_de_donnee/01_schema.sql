@@ -18,7 +18,6 @@ CREATE TABLE IF NOT EXISTS tentative_connexion(
 );
 
 
-
 CREATE TABLE IF NOT EXISTS categorie(
     id_categorie SERIAL PRIMARY KEY,
     nom_categorie VARCHAR(100) NOT NULL UNIQUE,
@@ -31,6 +30,7 @@ CREATE TABLE IF NOT EXISTS produit(
     nom_produit VARCHAR(100) NOT NULL,
     description_produit TEXT,
     image_url TEXT,
+    prix numeric(10,2) not null CHECK(prix >0),
     id_categorie INTEGER NOT NULL REFERENCES categorie(id_categorie) ON DElete restrict,
     date_creation TIMESTAMPTZ  NOT NULL DEFAULT now()
 );
@@ -39,12 +39,9 @@ CREATE TABLE IF NOT EXISTS variante(
     id_variante SERIAL  PRIMARY KEY,
     id_produit INTEGER not null REFERENCES produit(id_produit) ON DELETE CASCADE,
     taille varchar(10) not null CHECK (taille in ('XS','S','M','L','XL','XXL','UNIQUE')),
-    prix numeric(10,2) not null CHECK(prix >0),
     quantite integer not null default 0 check(quantite>=0),
     CONSTRAINT variante_produit_taille_unique UNIQUE (id_produit,taille)
 );
-
-
 
 CREATE TABLE IF NOT EXISTS favori(
     id_utilisateur integer not null references utilisateur(id_utilisateur) ON DELETE CASCADE,
@@ -52,7 +49,6 @@ CREATE TABLE IF NOT EXISTS favori(
     date_ajout  TIMESTAMPTZ NOT NULL DEFAULT now(),
     PRIMARY KEY (id_utilisateur, id_produit)
 );
-
 
 
 CREATE TABLE IF NOT EXISTS panier_article(
@@ -63,7 +59,6 @@ CREATE TABLE IF NOT EXISTS panier_article(
     PRIMARY KEY (id_utilisateur, id_variante)
 );
 
-
 CREATE TABLE IF NOT EXISTS  commande(
     id_commande SERIAL PRIMARY KEY,
     id_utilisateur INT NOT NULL REFERENCES utilisateur(id_utilisateur) ON DELETE RESTRICT,
@@ -71,6 +66,8 @@ CREATE TABLE IF NOT EXISTS  commande(
     statut VARCHAR(20) not null DEFAULT 'en_attente' check
     (statut in ('en_attente','payee','expediee','livree','annulee')),
     adresse_livraison text not null,
+    points_utilises INT NOT NULL DEFAULT 0 CHECK(points_utilises >=0),
+    remise_fidelite NUMERIC(10, 2) NOT NULL DEFAULT 0 CHECK(remise_fidelite >=0),
     total_prix NUMERIC(10, 2) NOT NULL DEFAULT 0 CHECK( total_prix >=0)
 );
 
@@ -102,3 +99,42 @@ CREATE TABLE IF NOT EXISTS message_contact (
     date_envoi TIMESTAMPTZ  NOT NULL DEFAULT now(),
     traite  BOOLEAN NOT NULL DEFAULT false
 );
+
+CREATE TABLE IF NOT EXISTS carte_fidelite(
+    id_carte SERIAL PRIMARY KEY,
+    numero_carte VARCHAR(20) NOT NULL UNIQUE,
+    date_creation TIMESTAMPTZ NOT NULL DEFAULT now(),
+    active BOOLEAN NOT NULL DEFAULT true,
+    points_accumules INT NOT NULL DEFAULT 0 CHECK(points_accumules >= 0),
+    id_utilisateur INT NOT NULL REFERENCES utilisateur(id_utilisateur) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS mouvement_points (
+    id_mouvement SERIAL PRIMARY KEY,
+    id_carte INTEGER NOT NULL REFERENCES carte_fidelite(id_carte) ON DELETE CASCADE,
+    id_commande INTEGER REFERENCES commande(id_commande) ON DELETE SET NULL,
+    type_mouvement VARCHAR(20) NOT NULL CHECK (type_mouvement IN ('gain', 'utilisation', 'annulation', 'ajustement')),
+    points INTEGER NOT NULL CHECK (points <> 0),
+    date_mouvement TIMESTAMPTZ NOT NULL DEFAULT now(),
+    CHECK (
+        (type_mouvement = 'gain' AND points > 0)
+        OR (type_mouvement = 'utilisation' AND points < 0)
+        OR type_mouvement IN ('annulation', 'ajustement')
+    )
+);
+
+CREATE OR REPLACE FUNCTION maj_solde_points() RETURNS trigger
+LANGUAGE plpgsql
+SET search_path = public
+AS $$
+BEGIN
+    UPDATE carte_fidelite
+    SET solde_points = solde_points + NEW.points
+    WHERE id_carte = NEW.id_carte;
+    RETURN NEW;
+END;
+$$;
+
+CREATE OR REPLACE TRIGGER trg_maj_solde_points
+AFTER INSERT ON mouvement_points
+FOR EACH ROW EXECUTE FUNCTION maj_solde_points();
