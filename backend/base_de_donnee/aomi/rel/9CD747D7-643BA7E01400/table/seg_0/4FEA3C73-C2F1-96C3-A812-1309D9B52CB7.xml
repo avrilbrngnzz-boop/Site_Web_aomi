@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FEA3C73-C2F1-96C3-A812-1309D9B52CB7" name="utilisateur">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>6010C0F3-BC79-21DB-C08E-D18F6BB16CAC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_utilisateur" id="B0D7D7F0-1FEF-416B-68BB-68280999231E">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>1CD60506-2931-740B-858A-D37C29D99F69</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="3C7A59F2-91CC-5A56-9D77-65CB969BD67A">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>4EA30AA9-C84A-A08B-D8C5-67BA860B0C75</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1EB87823-0C35-ABE5-E7F0-47F6E07EC50C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E30A657C-82D3-BF5A-94A0-EF1DFE336CCF">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>B2F1AF7B-581F-075E-1E37-8EACA7D1235A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EC693097-32A1-8D24-FE9B-278F6868687A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mot_de_passe" id="C2647EEA-A7FA-CC3A-DD6B-DBA6C38F54BB">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>155BFF7F-D1EC-2EC8-B446-1738669E22D5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2DB4009A-FBDF-DD61-615E-1E3EDC97C7C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role_utilisateur" id="8E680499-6F62-D550-24EA-0106209D867E">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>1F8EC9D8-AE18-3ED0-F794-5BCB3ABEB25C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1D88762F-1963-ADB4-37BF-E25BDCE7FEB1</domain>
+<defaultValue>&apos;utilisateur&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_creation" id="7493770F-DB92-A0B2-2B82-F633B59CC09D">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>C74E0B21-25B5-E780-033B-EF013FA86DB7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>4D3A6B1D-DE21-87AB-5BD7-32AFE816D33E</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DF41F05-D745-5913-6143-F45F167B5F3D" name="pk_utilisateur">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>862AB0CB-5038-B034-FE54-BC4886EC464A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0D7D7F0-1FEF-416B-68BB-68280999231E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A15AF198-4B0F-4525-C3DF-6B4E836BBDE0" name="uq_utilisateur_email">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>C29A7300-20FA-45E8-A328-A7279F218D2D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E30A657C-82D3-BF5A-94A0-EF1DFE336CCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_utilisateur_role" directorySegmentName="seg_0" id="44616D86-6E7F-753A-0DF8-3790C1BFFB8B">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi_erd</ownerDesignName>
+<importedID>F7A6435A-C253-A07F-BA44-D74F549B5F43</importedID>
+<rule><![CDATA[role_utilisateur IN ('utilisateur', 'analyste', 'admin')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

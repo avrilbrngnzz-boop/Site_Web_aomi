@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89EAF658-5341-FFB8-C8C9-559570448696" containerWithKeyObject="EF5FED1E-9689-E2C5-188E-FD7375BD3AC5" localFKIndex="0876DA30-9229-A2E6-FF78-FC4EA1CC8CDA" name="fk_ligne_variante">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>8B5BC766-1ABB-A88B-0D7B-512163ED7643</importedID>
+<referredTableLongName>variante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C095EF1-0CE3-ECB5-894B-99FFA4CACDAF</referredTableID>
+<keyObject>7E2F2552-3823-89BC-3AE3-87068F324415</keyObject>
+<referredKeyID>7E2F2552-3823-89BC-3AE3-87068F324415</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_variante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

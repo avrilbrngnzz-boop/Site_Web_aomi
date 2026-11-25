@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EAB2F1A-7BFE-0DAD-B929-6028E7D414C9" name="ligne commande">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>EF5FED1E-9689-E2C5-188E-FD7375BD3AC5</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id commande" id="67009D06-6523-6529-A184-8349B23F66C7">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>225E4B70-4A74-2DF2-6AA2-D7347772C407</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<referedAttribute>4CC0424D-AD71-6147-04B1-3DE3D875DE07</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id variante" id="ACBDAA8D-1A21-1C4A-7A47-30E74854395C">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>C4E96B61-FF2E-4B53-E8BE-4F1B982CADF9</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<referedAttribute>7466AE8B-C7FB-03C7-810A-149EAE02136C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantite" id="E64563CA-DBB1-9006-4713-3D92C4F1B61D">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>34AB8C3F-8AD9-1D6C-F17B-74C3B8DFF038</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix unitaire" id="829D9D61-CC79-DF36-8091-0E97536AEA27">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>A68587A2-BAF6-720B-F3A4-56A5916495CF</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6B4C7FC6-92BB-5BB4-1E37-5DEE9648ED5F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D52CFEB-50B9-0057-0F61-65FBE911980B" name="pk ligne commande">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>E37755BC-6492-9A31-6E40-2394E7807AB7</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67009D06-6523-6529-A184-8349B23F66C7</attributeRef>
+<attributeRef>ACBDAA8D-1A21-1C4A-7A47-30E74854395C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

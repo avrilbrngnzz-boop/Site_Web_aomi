@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8793752B-7466-4688-8FA2-7BD07259CD85" containerWithKeyObject="E9F71A6A-E870-3F9B-48B7-B691A8356F8D" localFKIndex="BB9AD141-904A-41C1-A065-3AAB7DAF6292" name="fk_produit_categorie">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>1221BB10-339E-DFE0-7C22-2CD163F3DD86</importedID>
+<referredTableLongName>categorie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B49A2FF2-AF85-E701-346F-E2B2EB09C8BC</referredTableID>
+<keyObject>E6DC9862-54AF-5AC4-2869-821885382EC5</keyObject>
+<referredKeyID>E6DC9862-54AF-5AC4-2869-821885382EC5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_categorie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

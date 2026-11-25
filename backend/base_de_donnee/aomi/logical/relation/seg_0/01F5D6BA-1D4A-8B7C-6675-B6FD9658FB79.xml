@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_favori_utilisateur" directorySegmentName="seg_0" id="01F5D6BA-1D4A-8B7C-6675-B6FD9658FB79">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:40:07 UTC</createdTime>
+<generatorID>483B2B01-7EE6-1416-D3E3-67443AD23FC1</generatorID>
+<ownerDesignName>aomi</ownerDesignName>
+<engineerTo>
+<item key="9CD747D7-D203-BF1E-0C44-643BA7E01400" value="true"/>
+<item key="6FF13291-53D3-42BA-3131-CF72E43A8B19" value="true"/>
+</engineerTo>
+<sourcePk>85A33B47-E2BF-F86B-C0A4-9EA9E64387B6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E6975BDC-DCFC-A04F-5B2C-B1FAFB396260</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0904FC06-C180-8210-39C9-5ACB82447B7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

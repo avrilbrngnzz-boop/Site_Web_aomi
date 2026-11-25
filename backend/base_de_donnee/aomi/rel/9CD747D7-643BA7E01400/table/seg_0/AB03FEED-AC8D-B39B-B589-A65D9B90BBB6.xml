@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB03FEED-AC8D-B39B-B589-A65D9B90BBB6" name="avis">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>95F0A2B3-F890-A0E7-7122-766A3EB0C22E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_avis" id="1A54D8C6-EED2-7838-5C2C-3D775E672C63">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>35C118DE-877D-521A-7F45-052E664A9CAA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_utilisateur" id="0406C381-1707-1A78-31D7-4915BB18E9AD">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>56D5F171-BDFA-19D2-B48A-F1D44AEAD0B7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79950F51-4722-6F02-E75F-081F2F40A40F" referredColumn="B0D7D7F0-1FEF-416B-68BB-68280999231E"/>
+</associations>
+</Column>
+<Column name="id_produit" id="6E6AF3C7-1178-96AE-C54C-D3D91795339F">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>8B322C26-0C6D-21E3-FCB7-DE2A49E2E73E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="776DBECD-BA85-0B4A-482D-A045220885B4" referredColumn="1C19FDE3-4BAF-B26A-E51E-C57E5F2DDBE5"/>
+</associations>
+</Column>
+<Column name="note" id="BFEBA4A1-857C-AD18-63D9-FDDB7AD5D517">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>6915743D-0ED6-A76F-888E-E3053407D7A3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>5FD7F936-5A25-19B4-FCE4-50E761CFACFC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commentaire" id="6B3D7BFA-B095-4A05-36AB-2D107A784353">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>747D6C04-9D74-B690-0546-4125A86450B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>794CE81E-0C95-50C8-1D7F-BC9EBD3CB45D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_avis" id="807A6B66-CA4B-679B-2212-3D0525CAC216">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>52D0F78F-EA73-22EE-8A7A-0F89841B2626</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>4D3A6B1D-DE21-87AB-5BD7-32AFE816D33E</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1931D4E-2308-4136-46A7-B71AA18F9646" name="pk_avis">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>90406396-9812-F8AC-0349-52D717414D95</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A54D8C6-EED2-7838-5C2C-3D775E672C63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3AADF1B-09B7-26DE-C1DD-C8C9A15B6438" name="uq_avis_utilisateur_produit">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>ED27ADDE-BE6F-171D-5159-6BD358C074F8</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0406C381-1707-1A78-31D7-4915BB18E9AD"/>
+<colUsage columnID="6E6AF3C7-1178-96AE-C54C-D3D91795339F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D03B7187-1FB9-8EF6-ECCE-1F4D62995A2F" name="fk_avis_produit">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E6AF3C7-1178-96AE-C54C-D3D91795339F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36CDFB1D-FDB6-C4EE-C8F8-7281BFB7653F" name="fk_avis_utilisateur">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0406C381-1707-1A78-31D7-4915BB18E9AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_avis_note" directorySegmentName="seg_0" id="386B8AEC-142F-8466-3689-00204AC98565">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi_erd</ownerDesignName>
+<importedID>D69F7BF0-4916-364F-01CD-D62A0F1C7246</importedID>
+<rule><![CDATA[note BETWEEN 1 AND 5]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

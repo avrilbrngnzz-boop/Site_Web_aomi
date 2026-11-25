@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46992AA1-94B2-92B5-3D22-4EDFEBADD495" containerWithKeyObject="1569B4D7-B22B-4F57-E7B9-DF3EADF7259E" localFKIndex="AD564AEF-37E3-AD23-2922-B34D0C0FD89F" name="fk_panier_utilisateur">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>C89C5F5E-2B69-C0BA-DBD8-4930FD427B57</importedID>
+<referredTableLongName>utilisateur</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>4FEA3C73-C2F1-96C3-A812-1309D9B52CB7</referredTableID>
+<keyObject>2DF41F05-D745-5913-6143-F45F167B5F3D</keyObject>
+<referredKeyID>2DF41F05-D745-5913-6143-F45F167B5F3D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_utilisateur</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

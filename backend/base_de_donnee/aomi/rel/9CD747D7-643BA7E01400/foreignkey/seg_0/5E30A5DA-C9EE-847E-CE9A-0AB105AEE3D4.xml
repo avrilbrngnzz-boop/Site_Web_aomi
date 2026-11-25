@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E30A5DA-C9EE-847E-CE9A-0AB105AEE3D4" containerWithKeyObject="EF5FED1E-9689-E2C5-188E-FD7375BD3AC5" localFKIndex="1B518DF4-A864-0FCD-0A6B-D066F5FB2FBA" name="fk_ligne_commande">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>50F7B039-9AB7-9158-CD3D-4BF4D0A509DD</importedID>
+<referredTableLongName>commande</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>C89C9BB6-7F90-578B-328E-B3A0329ADD68</referredTableID>
+<keyObject>2EA4ABE1-11C8-94B5-5BAF-0AB224C9FA63</keyObject>
+<referredKeyID>2EA4ABE1-11C8-94B5-5BAF-0AB224C9FA63</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_commande</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

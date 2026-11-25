@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C89C9BB6-7F90-578B-328E-B3A0329ADD68" name="commande">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>F7378A59-3CD9-F519-A215-968F521B3189</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_commande" id="C285B256-C67D-1F00-D26E-5D9D46CAB782">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>C5D6D907-7E6F-56D1-949F-DD689F92A12E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_utilisateur" id="761C2F97-1947-D839-067C-934A58EF33E1">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>BF84E9BB-E6AB-10CD-958D-0CD55136C2B3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9E4F3673-AF2E-576F-9F8F-72F9F81C2C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FD19873-624E-E1D1-A8F2-B6B514515B63" referredColumn="B0D7D7F0-1FEF-416B-68BB-68280999231E"/>
+</associations>
+</Column>
+<Column name="date_commande" id="A0E46834-A254-E96D-E435-AEDCD6DFE9FF">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>194D6B78-BF7D-8387-E0C8-4E6E0F2180E2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>4D3A6B1D-DE21-87AB-5BD7-32AFE816D33E</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statut" id="CA1D2DE5-724E-6510-7374-690194C94892">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>61C42E5E-A7CB-CCBB-7D9F-FF374B4FD2F0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1D88762F-1963-ADB4-37BF-E25BDCE7FEB1</domain>
+<defaultValue>&apos;en_attente&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse_livraison" id="DF8D0A01-4169-D106-C350-BD3E6F81A26C">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>E4D10C0C-524B-FB79-1CB2-A089D1B5D1A3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>794CE81E-0C95-50C8-1D7F-BC9EBD3CB45D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_prix" id="6D156850-2316-8463-1B2C-58A68EF4C376">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>6EB804DA-9EAE-8436-71F1-27EBD0FD47B2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6B4C7FC6-92BB-5BB4-1E37-5DEE9648ED5F</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EA4ABE1-11C8-94B5-5BAF-0AB224C9FA63" name="pk_commande">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<importedID>CD046570-F8F6-9C49-C3E6-EF6B99253577</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C285B256-C67D-1F00-D26E-5D9D46CAB782"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="521673E1-85F7-4787-096C-329A73B0F8A3" name="fk_commande_utilisateur">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="761C2F97-1947-D839-067C-934A58EF33E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_commande_statut" directorySegmentName="seg_0" id="B4683BC0-D04B-DBE6-D98D-5AD8374D0D2F">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi_erd</ownerDesignName>
+<importedID>23815AF0-C391-6426-98EB-50217B731204</importedID>
+<rule><![CDATA[statut IN ('en_attente', 'payee', 'expediee', 'livree', 'annulee')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_commande_total" directorySegmentName="seg_0" id="061B8133-D4D9-F5A0-E8C4-B43341C5E45C">
+<sourceDDLFile>aomi_modele.sql</sourceDDLFile>
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:19:06 UTC</createdTime>
+<ownerDesignName>aomi_erd</ownerDesignName>
+<importedID>20FE2F88-8913-4AED-DED3-AE641EA54CD1</importedID>
+<rule><![CDATA[total_prix >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

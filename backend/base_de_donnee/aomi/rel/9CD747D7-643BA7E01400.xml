@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="aomi_modele" id="9CD747D7-D203-BF1E-0C44-643BA7E01400" mainViewID="8F2A0372-4207-74E5-D889-9FA651BD1114">
+<createdBy>houma</createdBy>
+<createdTime>2026-10-18 11:18:31 UTC</createdTime>
+<ownerDesignName>aomi_erd</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>aomi_modele.sql</fileName>
+<pathName>C:\Users\houma\OneDrive\Bureau\ydays</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>
